@@ -1,6 +1,6 @@
 package lsvp.lfth;
-import lsvp.lfth.p1.simples.Realizacion.Automovil;
-import lsvp.lfth.p1.simples.Realizacion.Vehiculo;
+import lsvp.lfth.p1.simples.realizacion.Automovil;
+import lsvp.lfth.p1.simples.realizacion.Vehiculo;
 
 public class Main {
     public static void main(String[] args) {

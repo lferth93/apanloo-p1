@@ -1,4 +1,4 @@
-package lsvp.lfth.p1.simples.Realizacion;
+package lsvp.lfth.p1.simples.realizacion;
 
 public interface Vehiculo {
     void arrancar();
