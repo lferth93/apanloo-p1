@@ -24,6 +24,10 @@ public class Libro implements Comparable<Libro>{
         this.isbn = isbn;
     }
 
+    public Libro() {
+        super();
+    }
+
     public String getAutor() {
         return autor;
     }
