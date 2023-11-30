@@ -1,15 +1,20 @@
 package lsvp.lfth.p1.biblioteca;
 
+import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 public class Fecha {
-    GregorianCalendar fecha;
+    public static Fecha hoy(){
+        return new Fecha(((Calendar)Calendar.getInstance().clone()));
+    }
+
+    Calendar fecha;
 
     public Fecha(int dia, int mes, int anio){
         fecha = new GregorianCalendar(dia, mes - 1, anio);
     }
 
-    public Fecha(GregorianCalendar fecha){
+    public Fecha(Calendar fecha){
        this.fecha = fecha; 
     }
 
